@@ -15,30 +15,41 @@ div {
 }
 
 #container {
-  margin: auto;
+  /* margin: auto; */
 }
 
 #mainArticles {
   background-color: #00ff00;
   color: #ff0000;
-  height:100px;
+  /* height: auto; */
 }
 
-.topimg {
-  height: 250px;
-  /* padding: 20px; */
-  float:left;
+#mainArticles h2 {
+  position: relative;
+  color: red;
+}
+
+#leftTopImage, #rightTopImage {
   width: 50%;
-  background-color: #0000ff;
-  border-style: solid;
-  z-index: 1;
-  position:relative;
+  height: 450px;
+  float: left;
+  background-image: url("../img/topimg.jpg");
+  background-size: 100% 100%;
 }
 
-.topImages h2 {
-  position:absolute;
+#leftTopImage {
+  text-align:right;
+  vertical-align: text-bottom;
+}
+
+#rightTopImage {
+  text-align: left;
+}
+
+
+.topImage h2 {
+  position:relative;
   color: #ff0000;
-  z-index: 2;
 }
 
 h1 {
