@@ -80,13 +80,19 @@ div {
 
 .rowItem {
   background-color: cadetblue;
-  height: 50px;
+  height: auto;
   width: calc(100% / 3);
   float: left;
   display: block;
   border-style: solid;
   /* margin-bottom: 25px; */
   /* margin: 20px; */
+}
+
+.rowItem img {
+  height: 100px;
+  width: 200px;
+  /* height: 100%; */
 }
 
 #mainGrid {
