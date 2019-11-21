@@ -4,7 +4,7 @@
 }
 
 div {
-  background-color: #000000;
+  /* background-color: #000000; */
   color: #ffffff;
 }
 
@@ -20,14 +20,16 @@ div {
 }
 
 #content {
-  background-color: aqua;
+  background-color: white;
   border-style: solid;
   width: 65%;
+  height: 1200px;
 }
 
 #contentLeftSide {
   float:left;
   width: 70%;
+  background-color: green;
 }
 
 #contentRightSide {
@@ -63,6 +65,32 @@ div {
 #rightTopImage {
   text-align: left;
   background-image: url("../img/mainArticles/2.jpeg")
+}
+
+#promoBlock {
+  display: block;
+  height: 200px;
+  width: 100%;
+}
+
+.gridRow {
+  background-color: green;
+  height: 150px;
+}
+
+.rowItem {
+  background-color: cadetblue;
+  height: 50px;
+  width: calc(100% / 3);
+  float: left;
+  display: block;
+  border-style: solid;
+  /* margin-bottom: 25px; */
+  /* margin: 20px; */
+}
+
+#mainGrid {
+  /* background-color: red; */
 }
 
 /* h1 {
