@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  /* border-style: solid; */
+  margin: auto;
 }
 
 div {
@@ -9,13 +9,30 @@ div {
 }
 
 #header {
+  position: fixed;
+  width: 100%;
   background-color: #ff0000;
-  padding-top: 0px;
-  padding-bottom: 25px;
+  padding-bottom: 30px;
 }
 
 #container {
   /* margin: auto; */
+}
+
+#content {
+  background-color: aqua;
+  border-style: solid;
+  width: 65%;
+}
+
+#contentLeftSide {
+  float:left;
+  width: 70%;
+}
+
+#contentRightSide {
+  float: left;
+  width: 30%;
 }
 
 #mainArticles {
@@ -26,33 +43,29 @@ div {
 
 #mainArticles h2 {
   position: relative;
-  color: red;
+  color: black;
 }
 
 #leftTopImage, #rightTopImage {
   width: 50%;
   height: 450px;
   float: left;
-  background-image: url("../img/topimg.jpg");
+  /* background-image: url("../img/topimg.jpg"); */
   background-size: 100% 100%;
 }
 
 #leftTopImage {
   text-align:right;
   vertical-align: text-bottom;
+  background-image: url("../img/mainArticles/1.jpg")
 }
 
 #rightTopImage {
   text-align: left;
+  background-image: url("../img/mainArticles/2.jpeg")
 }
 
-
-.topImage h2 {
-  position:relative;
-  color: #ff0000;
-}
-
-h1 {
+/* h1 {
   padding-top: 0px;
   margin-top: 0px;
-}
+} */
