@@ -99,7 +99,9 @@ div {
 }
 
 #mainArticles h2 {
+  display: inline-block;
   color: black;
+  padding: 300px 0;
 }
 
 #leftTopImage, #rightTopImage {
@@ -111,8 +113,7 @@ div {
 
 #leftTopImage {
   text-align:right;
-  vertical-align: text-bottom;
-  background-image: url("../img/mainArticles/1.jpg")
+  background-image: url("../img/mainArticles/1.jpg");
 }
 
 #rightTopImage {
