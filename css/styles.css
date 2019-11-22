@@ -135,10 +135,11 @@ a, p, h2, h3 {
 }
 
 #leftTopImage, #rightTopImage {
+  filter: brightness(80%);
   width: 50%;
   height: inherit;
   float: left;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 #leftTopImage {
