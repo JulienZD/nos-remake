@@ -12,6 +12,7 @@ div {
   position: fixed;
   width: 100%;
   background-color: #ff0000;
+  margin-bottom: 30px;
   padding-bottom: 30px;
 }
 
@@ -29,7 +30,7 @@ div {
 #contentLeftSide {
   float:left;
   width: 70%;
-  background-color: green;
+  /* background-color: green; */
 }
 
 #contentRightSide {
@@ -75,31 +76,56 @@ div {
 
 .gridRow {
   background-color: green;
-  height: 150px;
+  height: 300px;
 }
 
-.rowItem {
-  background-color: cadetblue;
-  height: auto;
+.row:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.gridColumn {
+  position: relative;
+  background-color: white;
+  height: inherit;
   width: calc(100% / 3);
   float: left;
   display: block;
   border-style: solid;
-  /* margin-bottom: 25px; */
-  /* margin: 20px; */
+  padding:10px;
 }
 
-.rowItem img {
-  height: 100px;
-  width: 200px;
+.gridColumn h3, p{
+  color: black;
+  font-family: "Helvetica Neue", "Arial";
+}
+
+.gridColumn h3 {
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+.gridColumn a {
+  position: absolute;
+  padding: 10px 10px 0px 10px;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  text-decoration: none;
+  color: inherit;
+  z-index: 10;
+}
+
+.gridColumn a:hover h3 {
+  transition: 0.2s linear;
+  color: red;
+}
+
+.gridColumn img {
+  height: 60%;
+  width: 100%;
   /* height: 100%; */
 }
-
-#mainGrid {
-  /* background-color: red; */
-}
-
-/* h1 {
-  padding-top: 0px;
-  margin-top: 0px;
-} */
