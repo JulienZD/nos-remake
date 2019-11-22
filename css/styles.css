@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  border: 1px black solid;
 }
 
 body, html {
@@ -20,10 +21,40 @@ div {
   width: 100%;
   background-color: #ff0000;
   padding-bottom: 30px;
+  height: auto;
 }
 
 #container {
   /* margin: auto; */
+  height: 100%;
+}
+
+#mainArticles {
+  height: 450px;
+}
+
+#mainArticles h2 {
+  position: relative;
+  color: black;
+}
+
+#leftTopImage, #rightTopImage {
+  width: 50%;
+  height: inherit;
+  float: left;
+  /* background-image: url("../img/topimg.jpg"); */
+  background-size: 100% 100%;
+}
+
+#leftTopImage {
+  text-align:right;
+  vertical-align: text-bottom;
+  background-image: url("../img/mainArticles/1.jpg")
+}
+
+#rightTopImage {
+  text-align: left;
+  background-image: url("../img/mainArticles/2.jpeg")
 }
 
 #content {
@@ -45,37 +76,7 @@ div {
   width: 30%;
 }
 
-#mainArticles {
-  background-color: #00ff00;
-  color: #ff0000;
-  /* display: block; */
-  height: auto;
-  min-height: 100%;
-}
 
-#mainArticles h2 {
-  position: relative;
-  color: black;
-}
-
-#leftTopImage, #rightTopImage {
-  width: 50%;
-  height: 450px;
-  float: left;
-  /* background-image: url("../img/topimg.jpg"); */
-  background-size: 100% 100%;
-}
-
-#leftTopImage {
-  text-align:right;
-  vertical-align: text-bottom;
-  background-image: url("../img/mainArticles/1.jpg")
-}
-
-#rightTopImage {
-  text-align: left;
-  background-image: url("../img/mainArticles/2.jpeg")
-}
 
 #promoBlock {
   display: block;
