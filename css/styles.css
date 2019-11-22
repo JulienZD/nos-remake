@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  border: 1px black solid;
+  /* border: 1px black solid; */
 }
 
 body, html {
@@ -9,6 +9,7 @@ body, html {
 
 body {
     margin: auto;
+    padding-top: 65px;
 }
 
 div {
@@ -17,20 +18,21 @@ div {
 }
 
 #header {
-  position: fixed;
+  height: 65px;
   width: 100%;
+  top: 0;
+  position: fixed;
   background-color: #ff0000;
-  padding-bottom: 30px;
-  height: auto;
+  /* margin-bottom: 20px; */
 }
 
-#container {
-  /* margin: auto; */
-  height: 100%;
+.container {
+  width: 65%;
+  margin: 0 auto;
 }
 
 #mainArticles {
-  height: 450px;
+  height: 400px;
 }
 
 #mainArticles h2 {
@@ -61,7 +63,7 @@ div {
   display: block;
   background-color: white;
   border-style: solid;
-  width: 65%;
+  /* width: 65%; */
   /* height: 1200px; */
 }
 
