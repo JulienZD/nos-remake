@@ -20,6 +20,11 @@ div {
   color: #ffffff;
 }
 
+a, p, h2, h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
 .container {
   width: 65%;
   margin: 0 auto;
@@ -73,7 +78,6 @@ div {
   vertical-align: middle;
   text-align: left;
   text-indent: 15px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-decoration: none;
   color: #333;
 }
@@ -96,12 +100,38 @@ div {
 
 #mainArticles {
   height: 400px;
+  width: 100%;
+}
+
+#mainArticles .container {
+  height: 100%;
+  display: block;
+  position: relative;
 }
 
 #mainArticles h2 {
+  position: absolute;
   display: inline-block;
-  color: black;
-  padding: 300px 0;
+  color: white;
+  bottom: 0;
+  /* height: 30%; */
+  width: 50%;
+  font-size: 2em;
+  vertical-align: text-bottom;
+}
+
+#leftImgTitle {
+  padding-left: 12px;
+  padding-right: 40px;
+  text-align: left;
+  left: 0;
+}
+
+#rightImgTitle {
+  padding-left: 30px;
+  text-align: left;
+  right: 0;
+  height: auto;
 }
 
 #leftTopImage, #rightTopImage {
@@ -149,9 +179,6 @@ div {
   color: inherit;
 }
 
-.gridColumn img, h3 {
-}
-
 .gridColumn a:hover h3 {
   transition: 0.2s linear;
   color: #e60000;
@@ -163,8 +190,6 @@ div {
 }
 
 .gridColumn h3, p{
-  color: #333;
-  font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
   line-height: 1.4;
 }
 
