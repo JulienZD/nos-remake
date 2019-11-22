@@ -94,7 +94,7 @@ div {
 .gridColumn img, h3 {
 }
 
-.gridColumn:hover h3 {
+.gridColumn a:hover h3 {
   transition: 0.2s linear;
   color: red;
 }
