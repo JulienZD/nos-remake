@@ -11,7 +11,7 @@ html, body {
 
 body {
     margin: auto;
-    padding-top: 30px;
+    padding-top: 65px;
     min-height: 100%;
 }
 
@@ -30,12 +30,14 @@ a, p, h2, h3 {
   margin: 0 auto;
 }
 
+
 #header {
   height: 65px;
   width: 100%;
   top: 0;
   position: fixed;
   background-color: #f4f4f4;
+  z-index: 10;
 }
 
 #header .container {
@@ -72,7 +74,7 @@ a, p, h2, h3 {
 
 .headerItem a {
   display: table-cell;
-  position:relative;
+  position: relative;
   height: inherit;
   width: inherit;
   vertical-align: middle;
@@ -99,7 +101,7 @@ a, p, h2, h3 {
 }
 
 #mainArticles {
-  height: 400px;
+  height: 500px;
   width: 100%;
 }
 
@@ -114,10 +116,8 @@ a, p, h2, h3 {
   display: inline-block;
   color: white;
   bottom: 0;
-  /* height: 30%; */
   width: 50%;
   font-size: 2em;
-  vertical-align: text-bottom;
 }
 
 #leftImgTitle {
@@ -143,12 +143,12 @@ a, p, h2, h3 {
 
 #leftTopImage {
   text-align:right;
-  background-image: url("../img/mainArticles/1.jpg");
+  background-image: url("../img/mainArticles/onana.jpg");
 }
 
 #rightTopImage {
   text-align: left;
-  background-image: url("../img/mainArticles/2.jpeg")
+  background-image: url("../img/mainArticles/esigaret.jpg")
 }
 
 #content {
