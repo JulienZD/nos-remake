@@ -25,6 +25,10 @@ a, p, h2, h3 {
   color: #333;
 }
 
+h2, h3, p {
+  line-height: 1.4;
+}
+
 .container {
   width: 65%;
   margin: 0 auto;
@@ -101,7 +105,8 @@ a, p, h2, h3 {
 }
 
 #mainArticles {
-  height: 500px;
+  margin-top: -60px;
+  height: 450px;
   width: 100%;
 }
 
@@ -114,7 +119,7 @@ a, p, h2, h3 {
 #mainArticles h2 {
   position: absolute;
   display: inline-block;
-  color: white;
+  color: #f4f4f4;
   bottom: 0;
   width: 50%;
   font-size: 2em;
@@ -188,10 +193,6 @@ a, p, h2, h3 {
 .gridColumn img {
   height: 50%;
   width: 100%;
-}
-
-.gridColumn h3, p{
-  line-height: 1.4;
 }
 
 .gridColumn h3 {
