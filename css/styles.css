@@ -1,6 +1,13 @@
 * {
   box-sizing: border-box;
-  margin: auto;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+    margin: auto;
 }
 
 div {
@@ -12,7 +19,6 @@ div {
   position: fixed;
   width: 100%;
   background-color: #ff0000;
-  margin-bottom: 30px;
   padding-bottom: 30px;
 }
 
@@ -21,10 +27,11 @@ div {
 }
 
 #content {
+  display: block;
   background-color: white;
   border-style: solid;
   width: 65%;
-  height: 1200px;
+  /* height: 1200px; */
 }
 
 #contentLeftSide {
@@ -41,7 +48,9 @@ div {
 #mainArticles {
   background-color: #00ff00;
   color: #ff0000;
-  /* height: auto; */
+  /* display: block; */
+  height: auto;
+  min-height: 100%;
 }
 
 #mainArticles h2 {
