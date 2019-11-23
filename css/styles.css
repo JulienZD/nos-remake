@@ -49,7 +49,7 @@ h2, h3, p {
   height: 100%;
 }
 
-.headerItem {
+.header-item {
   display: table;
   height: inherit;
   float: left;
@@ -59,7 +59,7 @@ h2, h3, p {
   line-height: 100%;
 }
 
-.headerItem > a:before { /* Used: https://tobiasahlin.com/blog/css-trick-animating-link-underlines/ */
+.header-item > a:before { /* Used: https://tobiasahlin.com/blog/css-trick-animating-link-underlines/ */
   content: "";
   position: absolute;
   width: 100%;
@@ -71,12 +71,12 @@ h2, h3, p {
   transform: scaleX(0);
 }
 
-.headerItem:hover a:before {
+.header-item:hover a:before {
   visibility: visible;
   transform: scaleX(1);
 }
 
-.headerItem a {
+.header-item a {
   display: table-cell;
   position: relative;
   height: inherit;
@@ -88,7 +88,7 @@ h2, h3, p {
   color: #333;
 }
 
-#noslogo {
+#nos-logo {
   margin-top: 15px;
   background-image: url("../img/logo/nos-logo.svg");
   display: inline-block;
@@ -97,27 +97,27 @@ h2, h3, p {
   background-size: 100% 100%;
 }
 
-#logoBox {
+#logo-box {
   height: inherit;
   float: left;
   margin-left: 20px;
   margin-right: 20px;
 }
 
-#mainArticles {
+#main-articles {
   margin-top: -10px;
   height: 450px;
   width: 100%;
 }
 
-#mainArticles .container {
+#main-articles .container {
   height: 100%;
   display: block;
   position: relative;
   pointer-events: none;
 }
 
-#mainArticles h2 {
+#main-articles h2 {
   position: absolute;
   display: inline-block;
   color: #f4f4f4;
@@ -126,27 +126,27 @@ h2, h3, p {
   font-size: 2em;
 }
 
-#mainArticles a {
+#main-articles a {
   display: block;
   height: inherit;
   width: 100%;
 }
 
-#leftImgTitle {
+#main-title-left {
   padding-left: 12px;
   padding-right: 40px;
   text-align: left;
   left: 0;
 }
 
-#rightImgTitle {
+#main-title-right {
   padding-left: 30px;
   text-align: left;
   right: 0;
   height: auto;
 }
 
-#leftTopImage, #rightTopImage {
+#main-image-left, #main-image-right {
   filter: brightness(80%);
   width: 50%;
   height: inherit;
@@ -155,12 +155,12 @@ h2, h3, p {
   background-position: center;
 }
 
-#leftTopImage {
+#main-image-left {
   text-align:right;
   background-image: url("../img/main-articles/article1.jpg");
 }
 
-#rightTopImage {
+#main-image-right {
   text-align: left;
   background-image: url("../img/main-articles/article2.jpg")
 }
@@ -170,16 +170,16 @@ h2, h3, p {
   min-height: 100%;
 }
 
-#contentLeftSide {
+#content-left {
   float:left;
   width: 70%;
 }
 
-.gridRow {
+.grid-row {
   height: 400px;
 }
 
-.gridColumn {
+.grid-column {
   /* background-color: cadetblue; */
   height: inherit;
   width: calc(100% / 3);
@@ -187,55 +187,55 @@ h2, h3, p {
   padding:12px;
 }
 
-.gridColumn a {
+.grid-column a {
   display: inline-block;
   text-decoration: none;
   color: inherit;
 }
 
-.gridColumn a:hover h3 {
+.grid-column a:hover h3 {
   transition: 0.2s linear;
   color: #e60000;
 }
 
-.gridColumn img {
+.grid-column img {
   height: 50%;
   width: 100%;
 }
 
-.gridColumn h3 {
+.grid-column h3 {
   font-weight: bold;
   font-size: 1.05em;
   margin-bottom: 5px;
 }
 
-.gridColumn p {
+.grid-column p {
   font-size: .9em;
 }
 
 @media only screen and (max-width: 1100px) {
-  .headerItem {
+  .header-item {
     width: auto;
     margin-left: 30px;
   }
-  .gridColumn {
+  .grid-column {
     width: 50%;
   }
 }
 
 @media only screen and (max-width: 750px) {
-  .gridColumn {
+  .grid-column {
     width: 100%;
   }
 }
 
-#contentRightSide {
+#content-right {
   float: left;
   width: 30%;
   padding-left: 20px;
 }
 
-#promoBlock {
+#banner-promo {
   display: block;
   height: 200px;
   width: 100%;
