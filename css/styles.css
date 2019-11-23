@@ -1,18 +1,22 @@
-/* Taken from nos.nl: Font, background color */
+/*
+* Taken from nos.nl:
+* - Fonts;
+* - Colors;
+* - Images.
+*/
 
 * {
   box-sizing: border-box;
   /* border: 1px black solid; */
 }
 
-html, body {
-  height: 100%;
+html {
+  height: auto;
 }
 
 body {
-    margin: auto;
-    padding-top: 65px;
-    min-height: 100%;
+  margin: auto;
+  min-height: 100%;
 }
 
 div {
@@ -29,18 +33,28 @@ h2, h3, p {
   line-height: 1.4;
 }
 
+#page-container {
+  position:relative;
+  min-height: 100vh;
+  padding-top: 65px; /* Header height */
+  padding-bottom: 320px; /* Footer height */
+}
+
 .container {
   width: 65%;
   margin: 0 auto;
 }
 
 
+#header, #footer {
+  background-color: #f4f4f4;
+  width: 100%;
+}
+
 #header {
   height: 65px;
-  width: 100%;
   top: 0;
   position: fixed;
-  background-color: #f4f4f4;
   z-index: 10;
 }
 
@@ -165,9 +179,9 @@ h2, h3, p {
   background-image: url("../img/main-articles/article2.jpg")
 }
 
-#content {
+#content .container {
   padding-top: 10px;
-  min-height: 100%;
+  overflow:auto;
 }
 
 #content-left {
@@ -239,4 +253,14 @@ h2, h3, p {
   display: block;
   height: 200px;
   width: 100%;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  height: 320px;
+}
+
+#footer p {
+  line-height: normal;
 }
