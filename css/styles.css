@@ -181,7 +181,7 @@ h2, h3, p {
 
 #content .container {
   padding-top: 10px;
-  overflow:auto;
+  overflow: hidden;
 }
 
 #content-left {
