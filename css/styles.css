@@ -90,7 +90,7 @@ h2, h3, p {
 
 #noslogo {
   margin-top: 15px;
-  background-image: url("../img/NOSlogo.svg");
+  background-image: url("../img/logo/nos-logo.svg");
   display: inline-block;
   width: 100px;
   height: 30px;
@@ -157,12 +157,12 @@ h2, h3, p {
 
 #leftTopImage {
   text-align:right;
-  background-image: url("../img/mainArticles/onana.jpg");
+  background-image: url("../img/main-articles/article1.jpg");
 }
 
 #rightTopImage {
   text-align: left;
-  background-image: url("../img/mainArticles/esigaret.jpg")
+  background-image: url("../img/main-articles/article2.jpg")
 }
 
 #content {
