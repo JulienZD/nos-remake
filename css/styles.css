@@ -114,6 +114,7 @@ h2, h3, p {
   height: 100%;
   display: block;
   position: relative;
+  pointer-events: none;
 }
 
 #mainArticles h2 {
@@ -123,6 +124,12 @@ h2, h3, p {
   bottom: 0;
   width: 50%;
   font-size: 2em;
+}
+
+#mainArticles a {
+  display: block;
+  height: inherit;
+  width: 100%;
 }
 
 #leftImgTitle {
