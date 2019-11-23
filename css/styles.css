@@ -190,7 +190,8 @@ h2, h3, p {
 }
 
 .grid-row {
-  height: 400px;
+  min-height: 400px;
+  overflow: hidden; /* Fixes #6 */
 }
 
 .grid-column {
