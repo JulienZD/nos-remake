@@ -180,7 +180,7 @@ h2, h3, p {
 }
 
 #content .container {
-  padding-top: 10px;
+  padding-top: 25px;
   overflow: hidden;
 }
 
@@ -250,10 +250,14 @@ h2, h3, p {
   padding-left: 20px;
 }
 
+#banner-wrapper {
+  width: 85%;
+}
+
 #banner-promo {
   display: block;
-  height: 200px;
   width: 100%;
+  height: auto;
 }
 
 #footer {
