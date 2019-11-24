@@ -194,7 +194,7 @@ h2, h3, p {
   overflow: hidden; /* Fixes #6 */
 }
 
-.grid-column {
+.row-item {
   /* background-color: cadetblue; */
   height: inherit;
   width: calc(100% / 3);
@@ -202,29 +202,29 @@ h2, h3, p {
   padding:12px;
 }
 
-.grid-column a {
+.row-item a {
   display: inline-block;
   text-decoration: none;
   color: inherit;
 }
 
-.grid-column a:hover h3 {
+.row-item a:hover h3 {
   transition: 0.2s linear;
   color: #e60000;
 }
 
-.grid-column img {
+.row-item img {
   height: 50%;
   width: 100%;
 }
 
-.grid-column h3 {
+.row-item h3 {
   font-weight: bold;
   font-size: 1.05em;
   margin-bottom: 5px;
 }
 
-.grid-column p {
+.row-item p {
   font-size: .9em;
 }
 
@@ -233,13 +233,13 @@ h2, h3, p {
     width: auto;
     margin-left: 30px;
   }
-  .grid-column {
+  .row-item {
     width: 50%;
   }
 }
 
 @media only screen and (max-width: 750px) {
-  .grid-column {
+  .row-item {
     width: 100%;
   }
 }
