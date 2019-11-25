@@ -53,9 +53,14 @@ h2, h3, p {
   z-index: 10;
 }
 
-#header .container {
-  display: block;
+.header-container {
+  position: relative;
+  right: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
   height: 100%;
+  width: 80%;
 }
 
 .header-item {
@@ -174,14 +179,17 @@ h2, h3, p {
   background-image: url("../img/main-articles/article2.jpg")
 }
 
-#content .container {
+.flex-container {
   padding-top: 25px;
+  display:flex;
+  justify-content: center;
   overflow: hidden;
 }
 
 #content-left {
-  float:left;
-  width: 75%;
+  /* float:left; */
+  width: 60%;
+  margin-left: auto;
 }
 
 .grid-row {
@@ -234,9 +242,10 @@ h2, h3, p {
 }
 
 #content-right {
-  float: left;
-  width: 25%;
+  /* float: left; */
+  width: 20%;
   padding-left: 20px;
+  margin-right: auto;
 }
 
 #banner-wrapper {
