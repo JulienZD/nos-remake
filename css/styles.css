@@ -73,7 +73,7 @@ h2, h3, p {
 }
 
 .header-item {
-  /* display: table; */
+  display: table;
   position: relative;
   height: inherit;
   float: left;
@@ -102,7 +102,6 @@ h2, h3, p {
 
 .header-item > a {
   display: table-cell;
-  display: inline-block;
   position: relative;
   height: inherit;
   width: inherit;
@@ -116,6 +115,7 @@ h2, h3, p {
   display: none;
   position: fixed;
   left: 0;
+  top: 65px;
   width: 100%;
   min-height: 200px;
   border-top: 1px solid #e6e6e6;
