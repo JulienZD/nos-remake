@@ -17,11 +17,15 @@ html {
 body {
   margin: auto;
   min-height: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 a, p, h2, h3 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
+}
+
+a {
+  text-decoration: none;
 }
 
 h2, h3, p {
@@ -91,7 +95,7 @@ h2, h3, p {
   transform: scaleX(1);
 }
 
-.header-item a {
+.header-item > a {
   display: table-cell;
   display: inline-block;
   position: relative;
@@ -100,7 +104,6 @@ h2, h3, p {
   vertical-align: middle;
   text-align: left;
   text-indent: 15px;
-  text-decoration: none;
   color: #333;
 }
 
@@ -114,6 +117,41 @@ h2, h3, p {
   background-color: white;
   z-index: 15;
   padding: 12px 16px
+}
+
+.dropdown-news-sections {
+  float: left;
+  width: 25%;
+}
+
+.dropdown-news-sections ul {
+  padding: 0;
+}
+
+.news-section {
+  list-style-type: none;
+}
+
+.news-section a {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  text-indent
+}
+
+.dropdown-featured-news {
+  float: left;
+  display: flex;
+  width: 50%;
+}
+
+.dropdown-featured-news img {
+  width:50px;
+}
+
+.dropdown-other-nos {
+  float: left;
+  width: 25%;
 }
 
 .header-nieuws:hover .header-dropdown {
@@ -224,7 +262,6 @@ h2, h3, p {
 
 .row-item a {
   display: inline-block;
-  text-decoration: none;
   color: inherit;
 }
 
@@ -297,7 +334,6 @@ h2, h3, p {
   font-weight: bold;
   font-size: .7em;
   text-transform: uppercase;
-  text-decoration: none;
   margin: 0 12px;
   padding-bottom: 7px;
 }
@@ -313,7 +349,6 @@ h2, h3, p {
 #articles-wrapper a {
   min-height: 35px;
   width:100%;
-  text-decoration: none;
   display: flex;
   margin-top: 10px;
 }
