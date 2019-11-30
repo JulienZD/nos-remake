@@ -286,22 +286,23 @@ h2, h3, p {
 }
 
 .article-wrapper {
-  display: flex;
-  flex-wrap: wrap;
   font-size: .85em;
   width: 100%;
   line-height: 1.01em;
+  padding-right: 5px;
+  padding-bottom: 3px;
 }
 
 .article-wrapper p {
+  display: inline;
   margin: 0;
-  padding-right: 5px;
 }
 
 .article-time {
   color: #8c8c8c;
   letter-spacing: -.3px;
   font-weight: 500;
+  font-size: .9em;
 }
 
 #footer {
