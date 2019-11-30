@@ -28,6 +28,11 @@ h2, h3, p {
   line-height: 1.4;
 }
 
+.hoverable:hover .link-hover, .link-hover:hover {
+  transition: 0.2s linear;
+  color: #e60000 !important;
+}
+
 #page-container {
   position:relative;
   min-height: 100vh;
@@ -217,22 +222,6 @@ h2, h3, p {
   font-size: .9em;
 }
 
-@media only screen and (max-width: 1100px) {
-  .header-item {
-    width: auto;
-    margin-left: 30px;
-  }
-  .row-item {
-    width: 50%;
-  }
-}
-
-@media only screen and (max-width: 750px) {
-  .row-item {
-    width: 100%;
-  }
-}
-
 #content-right {
   float: left;
   width: 25%;
@@ -309,22 +298,10 @@ h2, h3, p {
   padding-right: 5px;
 }
 
-#articles-wrapper a:hover p:first-child {
-  transition: 0.2s linear;
-  color: #e60000;
-}
-
 .article-time {
   color: #8c8c8c;
   letter-spacing: -.3px;
   font-weight: 500;
-}
-
-
-
-.row-item a:hover h3, #articles-header a:hover {
-  transition: 0.2s linear;
-  color: #e60000;
 }
 
 #footer {
@@ -335,4 +312,20 @@ h2, h3, p {
 
 #footer p {
   line-height: normal;
+}
+
+@media only screen and (max-width: 1100px) {
+  .header-item {
+    width: auto;
+    margin-left: 30px;
+  }
+  .row-item {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .row-item {
+    width: 100%;
+  }
 }
