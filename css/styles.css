@@ -124,9 +124,12 @@ h2, h3, p {
   padding-top: 35px;
 }
 
+.dropdown-flex-container {
+  display: flex;
+}
+
 .dropdown-news-sections {
-  float: left;
-  width: 12%;
+  flex: 0 0 8.88em;
 }
 
 #nieuws-overzicht {
@@ -167,8 +170,7 @@ h2, h3, p {
 .dropdown-featured-news {
   float: left;
   display: flex;
-  width: 73%;
-  flex: 0 0 33.33%;
+  flex: 0 1 54.02em;
   justify-content: center;
   padding-left: 5em;
   padding-right: 5em;
@@ -177,7 +179,8 @@ h2, h3, p {
 .dropdown-featured-article {
   display: block;
   width: 100%;
-  padding-left: 25px;
+  padding-left: .8em;
+  padding-right: .8em;
 }
 
 .dropdown-featured-article a {
@@ -193,8 +196,7 @@ h2, h3, p {
 }
 
 .dropdown-other-news {
-  float: left;
-  width: 15%;
+  flex: 0 0 11.1em;
   border-left: 1px solid #e6e6e6;
   padding-left: 1em;
   padding-top: 25px;
