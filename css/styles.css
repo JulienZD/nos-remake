@@ -239,8 +239,8 @@ h2, h3, p {
 }
 
 #topstories {
-  margin-top: -10px;
-  height: 450px;
+  margin-top: -5px;
+  height: 400px;
   width: 100%;
 }
 
@@ -307,7 +307,7 @@ h2, h3, p {
 }
 
 #content-left {
-  width: 53em;
+  width: 55em;
   margin-left: auto;
 }
 
