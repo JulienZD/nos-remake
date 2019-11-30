@@ -307,7 +307,7 @@ h2, h3, p {
 }
 
 #content-left {
-  width: 60%;
+  width: 53em;
   margin-left: auto;
 }
 
@@ -344,8 +344,7 @@ h2, h3, p {
 }
 
 #content-right {
-  /* float: left; */
-  width: 20%;
+  flex: 0 0 19em;
   padding-left: 20px;
   margin-right: auto;
 }
