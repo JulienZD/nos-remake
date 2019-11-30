@@ -206,7 +206,7 @@ h2, h3, p {
   font-weight: bold;
   font-size: .9em;
   line-height: 1.4;
-  height: 100%;
+  height: auto;
 }
 
 .dropdown-featured-article img {
