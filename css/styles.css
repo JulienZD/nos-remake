@@ -266,14 +266,13 @@ h2, h3, p {
 }
 
 #topstory-title-left {
-  padding-left: 12px;
-  padding-right: 40px;
+  padding-right: 2rem;
   text-align: left;
   left: 0;
 }
 
 #topstory-title-right {
-  padding-left: 30px;
+  padding-left: 1.5rem;
   text-align: left;
   right: 0;
   height: auto;
