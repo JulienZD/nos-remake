@@ -307,18 +307,17 @@ h2, h3, p {
 }
 
 #content-left {
-  /* float:left; */
   width: 60%;
   margin-left: auto;
 }
 
-.grid-row {
-  min-height: 400px;
-  overflow: hidden;
+#main-articles-wrapper {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .main-article {
-  height: inherit;
+  min-height: 400px;
   width: calc(100% / 3);
   float: left;
   padding:12px;
