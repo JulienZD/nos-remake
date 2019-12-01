@@ -41,7 +41,7 @@ h2, h3, p {
   position:relative;
   min-height: 100vh;
   padding-top: 65px; /* Header height */
-  padding-bottom: 320px; /* Footer height */
+  padding-bottom: 19.7875em; /* Footer height */
 }
 
 .container {
@@ -49,7 +49,7 @@ h2, h3, p {
   margin: 0 auto;
 }
 
-#header, #footer {
+#header {
   background-color: #f4f4f4;
   width: 100%;
 }
@@ -444,11 +444,138 @@ h2, h3, p {
 #footer {
   position: absolute;
   bottom: 0;
-  height: 320px;
+  height: 19.7875em;
+  width: 100%;
+  border-top: 1px solid #e6e6e6;
+  background-color: #fafafa;
 }
 
 #footer p {
   line-height: normal;
+}
+
+.footer-flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-top-section {
+  display:flex;
+  padding-top: 2em;
+  margin-bottom: 2em;
+  align-items: flex-start;
+}
+
+.footer-info-wrapper, .footer-social-wrapper {
+  border-left: 1px solid #e6e6e6;
+}
+
+.footer-title {
+  font-variant: small-caps;
+  font-size: .9em;
+  color: #8c8c8c;
+  letter-spacing: -.5px;
+  font-weight: 500;
+}
+
+.footer-news-types-wrapper {
+  width: 12.5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-news-types-wrapper #logo-box {
+  margin-bottom: 1em;
+}
+
+.footer-types-wrapper {
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+  font-size: .9em;
+}
+
+.footer-info-wrapper {
+  width: 25em;
+  margin-right: 3em;
+  padding: 0 3em 0 3em;
+}
+
+.info-links-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 10em;
+}
+
+.info-links-wrapper a, .social-links-wrapper a {
+  line-height: 2;
+  font-size: .9em;
+  padding-right: 3em;
+}
+
+.footer-social-wrapper {
+  display: inline-block;
+  max-height: auto;
+  padding-left: 2em;
+}
+
+.social-links-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 6em;
+}
+
+.social-links-wrapper span {
+  color: #333;
+}
+
+.social-links-wrapper a {
+  color: #8c8c8c;
+}
+
+.fa-fw {
+  display: inline-block;
+  margin-right: 1em;
+  font-size: .9em;
+  text-align: left;
+}
+
+.hoverable:hover .fa-youtube {
+  color: #cc0000;
+}
+
+.hoverable:hover .fa-rss {
+  color: #ff6600;
+}
+
+.hoverable:hover .fa-facebook-f {
+  color: #0052a4;
+}
+
+.hoverable:hover .fa-twitter, .hoverable:hover .fa-instagram {
+  color: #0b7bc1;
+}
+
+.footer-bottom-section {
+  border-top: 1px solid #e6e6e6;
+}
+
+.footer-bottom-section * {
+  margin-top: 1em;
+  font-size: .9em;
+  color: #8c8c8c;
+}
+
+.footer-bottom-section a {
+  float: left;
+}
+
+.footer-bottom-section p {
+  float: right;
+  margin: 0;
+  padding: 1em;
 }
 
 @media only screen and (max-width: 1100px) {
